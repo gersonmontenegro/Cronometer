@@ -14,6 +14,7 @@
 		C360BFE61D8C554D00062C93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C360BFE41D8C554D00062C93 /* LaunchScreen.storyboard */; };
 		C360BFF01D8C588600062C93 /* digital_counter_7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C360BFEF1D8C588500062C93 /* digital_counter_7.ttf */; };
 		C3EF43A01D8F30B100FDD2ED /* UIButtonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF439F1D8F30B100FDD2ED /* UIButtonUtil.swift */; };
+		C3EF43A31D92E66000FDD2ED /* Cronometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF43A21D92E66000FDD2ED /* Cronometer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C360BFE71D8C554D00062C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C360BFEF1D8C588500062C93 /* digital_counter_7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = digital_counter_7.ttf; path = Cronometer/digital_counter_7.ttf; sourceTree = "<group>"; };
 		C3EF439F1D8F30B100FDD2ED /* UIButtonUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonUtil.swift; sourceTree = "<group>"; };
+		C3EF43A21D92E66000FDD2ED /* Cronometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cronometer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		C3EF439D1D8F306300FDD2ED /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				C3EF43A11D92E64B00FDD2ED /* cronometer */,
 				C3EF439E1D8F306C00FDD2ED /* util */,
 			);
 			name = classes;
@@ -92,6 +95,14 @@
 				C3EF439F1D8F30B100FDD2ED /* UIButtonUtil.swift */,
 			);
 			name = util;
+			sourceTree = "<group>";
+		};
+		C3EF43A11D92E64B00FDD2ED /* cronometer */ = {
+			isa = PBXGroup;
+			children = (
+				C3EF43A21D92E66000FDD2ED /* Cronometer.swift */,
+			);
+			name = cronometer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C360BFDE1D8C554D00062C93 /* ViewController.swift in Sources */,
+				C3EF43A31D92E66000FDD2ED /* Cronometer.swift in Sources */,
 				C360BFDC1D8C554D00062C93 /* AppDelegate.swift in Sources */,
 				C3EF43A01D8F30B100FDD2ED /* UIButtonUtil.swift in Sources */,
 			);

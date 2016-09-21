@@ -16,32 +16,31 @@ class ViewController: UIViewController {
     @IBOutlet var buttonCollection: [UIBarButtonItem]?
     
     var bolPlay:Bool = true
+    let crono:Cronometer = Cronometer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.crono.setLblCronometer(lbl: self.lblDigits)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
-    func changeSystemItem() {
+    
+    func changePlayIcon() {
         let bUtil:UIButtonUtil = UIButtonUtil()
         if self.bolPlay {
-            self.bolPlay = false
             bUtil.changeImage(btn: self.btnPlay, imageName: "Stop")
+            self.crono.initCronometer()
         }else{
-            self.bolPlay = true
+            self.crono.initCronometer()
             bUtil.changeImage(btn: self.btnPlay, imageName: "Play")
         }
-    }
-    
-    func clickEvent(){
-        
+        self.bolPlay = !self.bolPlay
     }
     
     @IBAction func clickPlayButton(_ sender: UIBarButtonItem) {
-        self.changeSystemItem()
+        self.changePlayIcon()
     }
     
 }
