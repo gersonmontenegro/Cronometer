@@ -24,7 +24,9 @@ class Cronometer{
     
     func initCronometer(){
         if self.state{
-            self.timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: Selector(("onTick")), userInfo: nil, repeats: true)
+            //            self.timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: Selector(("onTick")), userInfo: nil, repeats: true)
+            self.timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.onTick), userInfo: nil, repeats: true)
+//            self.timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: Selector("onTick"), userInfo: nil, repeats: true)
         }else{
             self.timer.invalidate()
         }
@@ -32,7 +34,7 @@ class Cronometer{
         self.state = !self.state
     }
     
-    func onTick(){
+    @objc func onTick(){
         self.counter += 1
         print(self.counter)
     }
