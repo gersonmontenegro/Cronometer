@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="digital_counter_7.ttf">
+            <string>DigitalCounter7</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cronometer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vlm-4p-1j8">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="TwZ-ZM-tRE"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Cronometer" id="SAI-dd-xRH"/>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" tag="100" contentMode="scaleToFill" restorationIdentifier="btb" translatesAutoresizingMaskIntoConstraints="NO" id="aQh-eZ-Lzq">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="XcV-8x-fJb"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem width="15" style="plain" systemItem="fixedSpace" id="XqD-sd-RS4"/>
+                                    <barButtonItem tag="98" systemItem="refresh" id="qfQ-ca-him"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="8dX-OG-6Ks"/>
+                                    <barButtonItem tag="99" image="Play" style="done" id="abt-rh-mxM">
+                                        <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="clickPlayButton:" destination="BYZ-38-t0r" id="GQ6-Ad-I5V"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Fr6-SH-boS"/>
+                                </items>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="theid" value="BottomToolBar"/>
+                                </userDefinedRuntimeAttributes>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cug-JJ-vD0">
+                                <fontDescription key="fontDescription" name="DigitalCounter7" family="Digital Counter 7" pointSize="45"/>
+                                <color key="textColor" red="0.61753771551724135" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cug-JJ-vD0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Ne-4f-Rkh"/>
+                            <constraint firstItem="vlm-4p-1j8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-20" id="4I6-KJ-Ok0"/>
+                            <constraint firstItem="cug-JJ-vD0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9HP-KU-9na"/>
+                            <constraint firstAttribute="trailing" secondItem="aQh-eZ-Lzq" secondAttribute="trailing" constant="-20" id="GcW-Sw-Hf9"/>
+                            <constraint firstItem="aQh-eZ-Lzq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-20" id="LFh-Ri-8zu"/>
+                            <constraint firstAttribute="trailing" secondItem="vlm-4p-1j8" secondAttribute="trailing" constant="-20" id="dD4-mP-Azp"/>
+                            <constraint firstItem="vlm-4p-1j8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="e0q-Vi-ivB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aQh-eZ-Lzq" secondAttribute="bottom" id="odW-DY-uh1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="barBottomToolbar" destination="aQh-eZ-Lzq" id="JwD-Lb-37g"/>
+                        <outlet property="btnPlay" destination="abt-rh-mxM" id="w62-tg-lU4"/>
+                        <outlet property="btnRestart" destination="aQh-eZ-Lzq" id="XyG-St-Z13"/>
+                        <outlet property="lblDigits" destination="cug-JJ-vD0" id="aLP-KB-0eH"/>
+                        <outletCollection property="buttonCollection" destination="abt-rh-mxM" collectionClass="NSMutableArray" id="gIJ-2H-h43"/>
+                        <outletCollection property="buttonCollection" destination="qfQ-ca-him" collectionClass="NSMutableArray" id="fqc-eU-VyC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Play" width="24" height="24"/>
+    </resources>
+</document>
