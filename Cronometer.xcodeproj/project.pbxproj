@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C360BFDC1D8C554D00062C93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360BFDB1D8C554D00062C93 /* AppDelegate.swift */; };
+		C360BFDE1D8C554D00062C93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360BFDD1D8C554D00062C93 /* ViewController.swift */; };
+		C360BFE11D8C554D00062C93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C360BFDF1D8C554D00062C93 /* Main.storyboard */; };
+		C360BFE31D8C554D00062C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C360BFE21D8C554D00062C93 /* Assets.xcassets */; };
+		C360BFE61D8C554D00062C93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C360BFE41D8C554D00062C93 /* LaunchScreen.storyboard */; };
+		C360BFF01D8C588600062C93 /* digital_counter_7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C360BFEF1D8C588500062C93 /* digital_counter_7.ttf */; };
+		C3EF43A01D8F30B100FDD2ED /* UIButtonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF439F1D8F30B100FDD2ED /* UIButtonUtil.swift */; };
+		C3EF43A31D92E66000FDD2ED /* Cronometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF43A21D92E66000FDD2ED /* Cronometer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C360BFD81D8C554D00062C93 /* Cronometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cronometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C360BFDB1D8C554D00062C93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C360BFDD1D8C554D00062C93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C360BFE01D8C554D00062C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C360BFE21D8C554D00062C93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C360BFE51D8C554D00062C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C360BFE71D8C554D00062C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C360BFEF1D8C588500062C93 /* digital_counter_7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = digital_counter_7.ttf; path = Cronometer/digital_counter_7.ttf; sourceTree = "<group>"; };
+		C3EF439F1D8F30B100FDD2ED /* UIButtonUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonUtil.swift; sourceTree = "<group>"; };
+		C3EF43A21D92E66000FDD2ED /* Cronometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cronometer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C360BFD51D8C554D00062C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C360BFCF1D8C554D00062C93 = {
+			isa = PBXGroup;
+			children = (
+				C3EF439D1D8F306300FDD2ED /* classes */,
+				C360BFF11D8C58AD00062C93 /* Resources */,
+				C360BFDA1D8C554D00062C93 /* Cronometer */,
+				C360BFD91D8C554D00062C93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C360BFD91D8C554D00062C93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C360BFD81D8C554D00062C93 /* Cronometer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C360BFDA1D8C554D00062C93 /* Cronometer */ = {
+			isa = PBXGroup;
+			children = (
+				C360BFDB1D8C554D00062C93 /* AppDelegate.swift */,
+				C360BFDD1D8C554D00062C93 /* ViewController.swift */,
+				C360BFDF1D8C554D00062C93 /* Main.storyboard */,
+				C360BFE21D8C554D00062C93 /* Assets.xcassets */,
+				C360BFE41D8C554D00062C93 /* LaunchScreen.storyboard */,
+				C360BFE71D8C554D00062C93 /* Info.plist */,
+			);
+			path = Cronometer;
+			sourceTree = "<group>";
+		};
+		C360BFF11D8C58AD00062C93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C360BFEF1D8C588500062C93 /* digital_counter_7.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C3EF439D1D8F306300FDD2ED /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				C3EF43A11D92E64B00FDD2ED /* cronometer */,
+				C3EF439E1D8F306C00FDD2ED /* util */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		C3EF439E1D8F306C00FDD2ED /* util */ = {
+			isa = PBXGroup;
+			children = (
+				C3EF439F1D8F30B100FDD2ED /* UIButtonUtil.swift */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		C3EF43A11D92E64B00FDD2ED /* cronometer */ = {
+			isa = PBXGroup;
+			children = (
+				C3EF43A21D92E66000FDD2ED /* Cronometer.swift */,
+			);
+			name = cronometer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C360BFD71D8C554D00062C93 /* Cronometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C360BFEA1D8C554D00062C93 /* Build configuration list for PBXNativeTarget "Cronometer" */;
+			buildPhases = (
+				C360BFD41D8C554D00062C93 /* Sources */,
+				C360BFD51D8C554D00062C93 /* Frameworks */,
+				C360BFD61D8C554D00062C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cronometer;
+			productName = Cronometer;
+			productReference = C360BFD81D8C554D00062C93 /* Cronometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C360BFD01D8C554D00062C93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Gerson Montenegro";
+				TargetAttributes = {
+					C360BFD71D8C554D00062C93 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P39JER3QKM;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = C360BFD31D8C554D00062C93 /* Build configuration list for PBXProject "Cronometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C360BFCF1D8C554D00062C93;
+			productRefGroup = C360BFD91D8C554D00062C93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C360BFD71D8C554D00062C93 /* Cronometer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C360BFD61D8C554D00062C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C360BFF01D8C588600062C93 /* digital_counter_7.ttf in Resources */,
+				C360BFE61D8C554D00062C93 /* LaunchScreen.storyboard in Resources */,
+				C360BFE31D8C554D00062C93 /* Assets.xcassets in Resources */,
+				C360BFE11D8C554D00062C93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C360BFD41D8C554D00062C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C360BFDE1D8C554D00062C93 /* ViewController.swift in Sources */,
+				C3EF43A31D92E66000FDD2ED /* Cronometer.swift in Sources */,
+				C360BFDC1D8C554D00062C93 /* AppDelegate.swift in Sources */,
+				C3EF43A01D8F30B100FDD2ED /* UIButtonUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C360BFDF1D8C554D00062C93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C360BFE01D8C554D00062C93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C360BFE41D8C554D00062C93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C360BFE51D8C554D00062C93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C360BFE81D8C554D00062C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C360BFE91D8C554D00062C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C360BFEB1D8C554D00062C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cronometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.mobilecorp.Cronometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C360BFEC1D8C554D00062C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cronometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.mobilecorp.Cronometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C360BFD31D8C554D00062C93 /* Build configuration list for PBXProject "Cronometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C360BFE81D8C554D00062C93 /* Debug */,
+				C360BFE91D8C554D00062C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C360BFEA1D8C554D00062C93 /* Build configuration list for PBXNativeTarget "Cronometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C360BFEB1D8C554D00062C93 /* Debug */,
+				C360BFEC1D8C554D00062C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C360BFD01D8C554D00062C93 /* Project object */;
+}
